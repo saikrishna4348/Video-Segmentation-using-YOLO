@@ -86,8 +86,8 @@ def main():
         
         # Process video
         segmenter.process_video(
-            video_path="sample_video.mp4",
-            output_dir="video_output",
+            video_path="sample_video.mp4", #Path to input file
+            output_dir="video_output",   #Path to output folder
             frame_skip=1  
         )
         

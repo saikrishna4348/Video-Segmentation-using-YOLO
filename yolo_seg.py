@@ -83,8 +83,8 @@ def main():
         
         # Process images
         segmenter.segment_images(
-            input_dir="input_images",    
-            output_dir="output_images"   
+            input_dir="input_images",    #Path to input file
+            output_dir="output_images"   #Path to output folder
         )
         
     except Exception as e:
