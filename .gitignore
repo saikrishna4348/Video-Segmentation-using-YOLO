@@ -1,0 +1,6 @@
+echo "__pycache__/" >> .gitignore
+echo ".vscode/" >> .gitignore
+echo ".seg/" >> .gitignore
+echo "venv/" >> .gitignore
+echo "*.pyc" >> .gitignore
+seg/
